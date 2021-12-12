@@ -21,7 +21,7 @@ public class FireNetherite
     public FireNetherite() {
 		@SuppressWarnings("unused")
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		ModLoadingContext.get().registerConfig(Type.COMMON, FireNetheriteConfig.SPEC, "firenetherite-common.toml");
+		ModLoadingContext.get().registerConfig(Type.SERVER, FireNetheriteConfig.SPEC, "firenetherite-server.toml");
         MinecraftForge.EVENT_BUS.register(this);
     }
 

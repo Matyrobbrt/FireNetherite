@@ -10,8 +10,10 @@ public class FireNetheriteConfig {
 	public static final ForgeConfigSpec.ConfigValue<Integer> ARMOUR_PIECES_NEEDED;
 	
 	static {
-		BUILDER.push("Fire Netherite Config");
-		ARMOUR_PIECES_NEEDED = BUILDER.comment("The amount of netherite armour pieces needed to get the fire resistance effect. (1-4) (Default is 4)").define("Netherite Armour Pieces", 4);
+		BUILDER.push("FireNetheriteConfig");
+		ARMOUR_PIECES_NEEDED = BUILDER.comment(
+				"The amount of netherite armour pieces needed to get the fire resistance effect. (1-4) (Default is 4)")
+				.define("armourPiecesNeeded", 4);
 		BUILDER.pop();
 		SPEC = BUILDER.build();
 	}

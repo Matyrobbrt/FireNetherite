@@ -10,7 +10,7 @@ license="All rights reserved"
 
 modId="firenetherite" #mandatory
 
-version="1.0" #mandatory
+version="2.0" #mandatory
 
 displayName="Fire Netherite" #mandatory
 
